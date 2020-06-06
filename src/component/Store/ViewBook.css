@@ -1,0 +1,18 @@
+.ViewBook .wrapper {
+  display: flex;
+  height: 550px;
+  margin: 100px;
+  width: 700px;
+  justify-content: space-around;
+}
+
+.ViewBook .wrapper img {
+  height: 100%;
+}
+
+.ViewBook .wrapper .infor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

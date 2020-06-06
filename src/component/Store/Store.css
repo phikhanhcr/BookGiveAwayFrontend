@@ -1,0 +1,165 @@
+.MyStore {
+  display: flex;
+  justify-content: center;
+}
+
+.MyStore .wrapperStore {
+  width: 1300px;
+  height: auto;
+  display: flex;
+
+}
+.MyStore .wrapperStore  .myOption {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.MyStore .wrapperStore .myProfile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 20%;
+  align-items: center;
+}
+
+.MyStore .wrapperStore .myProfile .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MyStore .wrapperStore .myProfile .avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.MyStore .wrapperStore .myProfile .information {
+  margin-top: 30px;
+  margin-left: 18px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.MyStore .wrapperStore .myProfile a {
+  color: black;
+  text-decoration: none;
+}
+.MyStore .wrapperStore .myProfile a:hover {
+  color: red;
+}
+.MyStore .wrapperStore .myProfile  .Coin {
+  height: 200px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.MyStore .wrapperStore .myProfile  .Coin img{
+  width: 15px;
+  height: 15px;
+  margin-right: 23px;
+}
+
+.MyStore .wrapperStore .myProduct {
+  flex-grow: 7;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+.myProduct .eachProduct {
+  width: 262px;
+  height: 300px;
+  background-color: #ddd;
+}
+.myProduct .eachProduct .wrapperProduct {
+  
+  margin: 15px;
+  background-color: #eee;
+}
+.myProduct .eachProduct img {
+  width: 100%;
+  height: 50%;
+}
+
+.createNewBook {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+.createNewBook input {
+  width: 250px;
+}
+.createNewBook.display {
+  display: none;
+}
+.myProfile .Logout {
+  margin-top: 15px;
+}
+
+.myProfile .information a:active {
+  color: red;
+}
+
+/* setting profile */
+
+
+  .ProfileSetting {
+    flex-grow: 7;
+    display: flex;
+    margin: 15px;
+  }
+  .ProfileSetting .setting {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .ProfileSetting .setting .eachRow {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .ProfileSetting .setting p {
+    margin: 0;
+  }
+  .ProfileSetting .setting .eachRow .left {
+    width: 100px;
+    text-align: right;
+    margin-right: 25px;
+  }
+  .ProfileSetting .setting  .radioBox input {
+    margin:0 10px;
+  }
+  .ProfileSetting .setting .eachRow .textBox {
+    width: 60%;
+    height: 40px;
+    padding-left: 15px;
+  }
+  .ProfileSetting .setting button {
+    width: 100px;
+    margin-left: 100px;
+  }
+  .ProfileSetting .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProfileSetting .image img{
+    margin-bottom: 25px;
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .ProfileSetting .image .avatar-uploader {
+    display: none;
+  }
+  .ProfileSetting .image button {
+
+  }

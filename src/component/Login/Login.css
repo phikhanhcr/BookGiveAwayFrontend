@@ -1,0 +1,67 @@
+.Login .wrapper-login {
+  background-color: #fff;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Login {
+  margin-top: 0;
+}
+.Login .wrapper-login h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Login .wrapper-login form {
+  display: flex;
+  flex-direction: column;
+}
+.Login .wrapper-login form input {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  width: 220px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.Login .wrapper-login form input:focus {
+  outline: none;
+}
+.Login .wrapper-login .child-login p {
+  margin: 0;
+}
+.Login .wrapper-login .child-login h2 {
+  font-family: monospace;
+  width: 180px;
+  text-align: center;
+}
+.Login .wrapper-login .child-login {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  justify-content: space-evenly;
+  height: 450px;
+  width: 351px;
+  align-items: center;
+ }
+ .Login .wrapper-login .child-login .alert.display {
+   display: none;
+ }
+ .Login .wrapper-login .child-login button {
+   margin: 20px 0;
+ }
+ .Login .sign-in {
+   display: flex;
+   background-color: #fff;
+   width: 351px;
+   border: 1px  solid #ccc;
+   margin-top: 15px;
+   justify-content: center;
+   padding: 7px 0;
+  align-items: center;
+ }
+ .Login .sign-in p {
+   margin: 0;
+   margin-right: 10px;
+ }
